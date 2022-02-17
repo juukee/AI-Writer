@@ -17,7 +17,7 @@ PORT_NUM = 8266
 # dml：支持 amd / intel / nvidia 显卡，需要不同的模型，需要 pip install onnxruntime-directml 然后在 run.py 和 server.py 设置为 dml 模式
 # cpu：没显卡就选它，但也是用 nvidia 卡的模型
 
-RUN_DEVICE = 'gpu' # gpu 或 dml 或 cpu
+RUN_DEVICE = 'cpu' # gpu 或 dml 或 cpu
 
 MODEL_NAME = 'model/wangwen-2022-02-15' # 模型名
 WORD_NAME = 'model/wangwen-2022-02-15' # 这个也修改

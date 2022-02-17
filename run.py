@@ -25,7 +25,7 @@ print('\n声明：模型的训练数据全部来自网文，缺乏生活常识�
 # dml：支持 amd / intel / nvidia 显卡，需不同模型，需 pip install onnxruntime-directml 然后在 run.py 和 server.py 设置为 dml 模式
 # cpu：没显卡就选它，但也用 nvidia 卡的模型
 
-RUN_DEVICE = 'gpu' # gpu 或 dml 或 cpu
+RUN_DEVICE = 'cpu' # gpu 或 dml 或 cpu
 
 MODEL_NAME = 'model/wangwen-2022-02-15' # 模型名
 WORD_NAME = 'model/wangwen-2022-02-15' # 这个也修改
@@ -41,7 +41,7 @@ top_p_newline = 0.9
 # context = "魔法"
 # context = "“区区"
 # context = "三体舰队"
-context = "这是一颗"
+context = "bj省人民中心医院，重症室。"
 # context = "众人一惊，没想到这林黛玉的剑法竟如此精妙，只见在那剑影下，剑尖朝着伏地魔的脖子探去，眼见避无可避，伏地魔情急，大喊"
 
 # 多行的开头这样输入：
